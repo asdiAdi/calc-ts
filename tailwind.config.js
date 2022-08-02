@@ -18,7 +18,9 @@ module.exports = {
         'button-color-white': '#e8e6e8',
         'button-color-orange': '#f49a57',
         'button-color-text-black': '#303132',
-        'display-white': '#d5e2e4'
+        'display-gray': '#BFC0C4',
+        'display-inner': '#D5E2E4',
+        'display-text': '#1D2061'
       }
     },
   },
