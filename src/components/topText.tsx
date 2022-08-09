@@ -9,7 +9,7 @@ type TopTextProp = {
 
 function TopText({height, brand, model, screenModel, children }: TopTextProp) {
     return (
-        <div id="top-text" className={"h-["+ height +"] w-auto flex items-center justify-center flex-wrap text-center"}>
+        <div id="top-text" className={"w-auto flex items-center justify-center flex-wrap text-center"} style={{height: height}}>
             <div>{brand}</div>
             <div className='w-1/6'></div>
             <div>{model}</div>

@@ -1,8 +1,13 @@
+import React from "react";
+
 type MiddleButtonsProp = {
     height: string
 }
 
 function MiddleButtons({height}: MiddleButtonsProp) {
+    React.useEffect(()=>{
+        if(document.getElementById('middle-button')) document.getElementById('middle-button')!.style.height = height;
+    },[])
     return (
         <div id="middle-button" className={"h-["+ height +"] w-auto flex justify-center items-center"}>
             <div id='mid-grid' className='grid grid-cols-6 h-full w-[84.9265%] place-items-center text-center'>

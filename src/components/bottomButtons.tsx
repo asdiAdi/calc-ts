@@ -3,8 +3,9 @@ type BottomButtonsProp = {
 }
 
 function BottomButtons({height}: BottomButtonsProp) {
+ 
     return (
-        <div id="bottom-button" className={"h-["+height+"] w-auto flex justify-center items-center"}>
+        <div id="bottom-button" className={"w-auto flex justify-center items-center"} style={{height: height}}>
             <div id='mid-grid' className='grid grid-cols-5 h-full w-[84.9265%] place-items-center text-center text-button-color-text-black text-3xl'>
                 <div className='w-[90.9091%] h-full flex justify-center flex-wrap'>
                     <div className='text-text-brown w-[50%] h-[27.5%] text-xs'>CONST</div>

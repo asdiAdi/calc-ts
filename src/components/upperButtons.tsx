@@ -4,7 +4,7 @@ type UpperButtonsProp = {
 
 function UpperButtons({height}: UpperButtonsProp) {
   return (
-    <div id="upper-button" className={"h-["+height+"] w-auto flex justify-center items-center"}>
+    <div id="upper-button" className={"w-auto flex justify-center items-center"} style={{height: height}}>
       <div className='w-[12.5%] h-[71.15%] flex justify-center flex-wrap'>
         <div className='text-text-brown h-[29.73%] text-xs'>Shift</div>
         <div className='bg-outer-violet w-full h-[70.27%] rounded-[50%] rotate-[9deg] flex justify-center before:bg-inner-gray before:w-[80%] before:h-[123.08%] before:rounded-[50%] before:translate-y-[-9.38%] before:translate-x-[90%]'>
